@@ -129,6 +129,9 @@
     <ImageAsset Include="Assets.xcassets\Square.imageset\Second.pdf">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\plus.pdf" />
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -147,6 +150,10 @@
   <ItemGroup>
     <Folder Include="Assets.xcassets\Circle.imageset\" />
     <Folder Include="Assets.xcassets\Square.imageset\" />
+    <Folder Include="Assets.xcassets\Plus.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
